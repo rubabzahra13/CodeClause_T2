@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>URL Shortener</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>URL Shortener</h1>
+    <form action="/api/shorten" method="POST">
+  <input type="text" id="urlInput" name="longURL" placeholder="Enter URL">
+  <button type="submit">Shorten</button>
+</form>
+    <div id="shortenedURL"></div>
+    <script src="script.js"></script>
+</body>
+</html>
